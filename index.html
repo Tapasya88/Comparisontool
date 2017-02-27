@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Products Comparison Table | CodyHouse</title>
+</head>
+<body>
+	<section class="cd-intro">
+		<h1>Select the Product you want to compare</h1>
+		<input type="checkbox" class="check" id="int"  onclick="prodcutSwitch(this);"/>Internet
+		<input type="checkbox" class="check" id="tv"  onclick="prodcutSwitch(this);"/>TV
+		<input type="checkbox" class="check" id="tvint" onclick="prodcutSwitch(this);"/>Internet & TV
+	</section> <!-- .cd-intro -->
+
+	<section class="cd-products-comparison-table" id="intsection">
+		<header>
+			
+			<div class="actions">
+				<a href="#0" class="reset">Reset</a>
+				<a href="#0" class="filter">Filter</a>
+			</div>
+		</header>
+
+		<div class="cd-products-table">
+			<div class="features">
+				<div class="top-info">Speeds</div>
+				<ul class="cd-features-list">
+					<li>Price</li>
+					<li>Suitable for</li>
+					<li>Download time</li>
+					<!--<li>Screen Type</li>
+					<li>Display Size</li>
+					<li>Refresh Rate</li>
+					<li>Model Year</li>
+					<li>Tuner Technology</li>
+					<li>Ethernet Input</li>
+					<li>USB Input</li>
+					<li>Scart Input</li>-->
+				</ul>
+			</div> <!-- .features -->
+			
+			<div class="cd-products-wrapper">
+				<ul class="cd-products-columns">
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>50/50 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$54.99</li>
+							<li>Surfing the Web, checking mails, sharing pics.</li>
+							<li>Upload 200 photos in 40 secs.</li>
+							<!--<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>100/100 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$64.99</li>
+							<li>Stream more, download more and share videos.</li>
+							<li>Upload 200 photos in 20 secs.</li>
+							<!--<li class="rate"><span>5/5</span></li>
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>150/150 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$74.99</li>
+							<li>Stay connected. Enjoy faster speed and less lag while you’re working or at home.</li>
+							<li>Upload 200 photos in 13.3 secs.</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>300/300 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$99.99</li>
+							<li>Be massively productive. Perfect for powering multiple heavy-usage activities across multiple devices.</li>
+							<li>Upload 200 photos in 6.7 secs.</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>500/500 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$274.99</li>
+							<li>Indulge in supreme speed and power for the ultimate online experience.</li>
+							<li>Upload 200 photos in 4 secs.</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					
+					
+
+					
+				</ul> <!-- .cd-products-columns -->
+			</div> <!-- .cd-products-wrapper -->
+			
+			<ul class="cd-table-navigation">
+				<li><a href="#0" class="prev inactive">Prev</a></li>
+				<li><a href="#0" class="next">Next</a></li>
+			</ul>
+		</div> <!-- .cd-products-table -->
+	</section> <!-- .cd-products-comparison-table -->
+	
+	<section class="cd-products-comparison-table" id="tvsection">
+		<header>
+			
+			<div class="actions">
+				<a href="#0" class="reset">Reset</a>
+				<a href="#0" class="filter">Filter</a>
+			</div>
+		</header>
+
+		<div class="cd-products-table">
+			<div class="features">
+				<div class="top-info">Packages</div>
+				<ul class="cd-features-list">
+					<li>Price</li>
+					<li>Types of channels</li>
+					<li>Features</li>
+					<!--<li>Screen Type</li>
+					<li>Display Size</li>
+					<li>Refresh Rate</li>
+					<li>Model Year</li>
+					<li>Tuner Technology</li>
+					<li>Ethernet Input</li>
+					<li>USB Input</li>
+					<li>Scart Input</li>-->
+				</ul>
+			</div> <!-- .features -->
+		
+   	
+			<div class="cd-products-wrapper">
+				<ul class="cd-products-columns">
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>Custom TV</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$64.99</li>
+							<li>Wide range of channel list to choose.</li>
+							<li>Choose the genre and types of programming that fit your viewing style.</li>
+							<!--<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>Preferred HD</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$74.99</li>
+							<li>Watch exciting sports, music, comedy and travel – there’s never a dull moment.</li>
+							<li>255+ channels (80+ HD).</li>
+							<!--<li class="rate"><span>5/5</span></li>
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>Extreme HD</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$79.99</li>
+							<li>Stay connected. Enjoy faster speed and less lag while you’re working or at home.</li>
+							<li>330+ channels (100+ HD).</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>Ultimate HD</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$99.99</li>
+							<li>Our most popular package, for total entertainment junkies.</li>
+							<li>425+ channels (145+ HD).</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/product.svg" alt="product image">
+							<h3>Fios TV Local</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$10</li>
+							<li>Get your core local channels with great local news, entertainment, variety and more.</li>
+							<li>15+ channels (5+ HD).</li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					
+					
+
+					
+				</ul> <!-- .cd-products-columns -->
+			</div> <!-- .cd-products-wrapper -->
+			
+			<ul class="cd-table-navigation">
+				<li><a href="#0" class="prev inactive">Prev</a></li>
+				<li><a href="#0" class="next">Next</a></li>
+			</ul>
+		</div> <!-- .cd-products-table -->
+	</section> <!-- .cd-products-comparison-table -->
+	
+	<section class="cd-products-comparison-table" id="inttvsection">
+		<header>
+			
+			<div class="actions">
+				<a href="#0" class="reset">Reset</a>
+				<a href="#0" class="filter">Filter</a>
+			</div>
+		</header>
+
+		<div class="cd-products-table">
+			<div class="features">
+				<div class="top-info">Bundles (Internet+TV)</div>
+				<ul class="cd-features-list">
+					<li>Price</li>
+					<li>Package Type</li>
+					<li>Inividual Product Cost</li>
+					<li>Bundle up savings</li>
+					<!--<li>Screen Type</li>
+					<li>Display Size</li>
+					<li>Refresh Rate</li>
+					<li>Model Year</li>
+					<li>Tuner Technology</li>
+					<li>Ethernet Input</li>
+					<li>USB Input</li>
+					<li>Scart Input</li>-->
+				</ul>
+			</div> <!-- .features -->
+		
+   	
+			<div class="cd-products-wrapper">
+				<ul class="cd-products-columns">
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/vz_btm_of_img_tp.jpg" alt="product image">
+							<h3>Fios TV Local + 50/50 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$55.00</li>
+							<li>Fios TV Local + 50/50 Mbps Internet.</li>
+							<li>Fios TV Local $10 + 50/50 Mbps Internet $54.99 = $64.99.</li>
+							<li><strong>$9.99</strong></li>
+							<!--<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/vz_btm_of_img_tp.jpg" alt="product image">
+							<h3>Fios Custom TV + 50/50 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$69.99.00</li>
+							<li>Fios Custom TV + 50/50 Mbps Internet.</li>
+							<li>Fios Custom TV - $10 + 50/50 Mbps Internet - $64.99 = $74.99.</li>
+							<li><strong>$5</strong></li>
+							<!--<li class="rate"><span>5/5</span></li>
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					<li class="product">
+						<div class="top-info">
+							<div class="check"></div>
+							<img src="img/vz_btm_of_img_tp.jpg" alt="product image">
+							<h3>Fios TV Preferred HD + 50/50 Mbps</h3>
+						</div> <!-- .top-info -->
+
+						<ul class="cd-features-list">
+							<li>$84.99.00</li>
+							<li>Fios Custom TV + 50/50 Mbps Internet.</li>
+							<li>Fios Custom TV - $10 + 50/50 Mbps Internet - $74.99 = $84.99.</li>
+							<li><strong>HBO® included for 1 year (reg. $15/mo.)</strong></li>
+							<!--
+							<li>1080p</li>
+							<li>LED</li>
+							<li>47.6 inches</li>
+							<li>800Hz</li>
+							<li>2015</li>
+							<li>mpeg4</li>
+							<li>1 Side</li>
+							<li>3 Port</li>
+							<li>1 Rear</li>-->
+						</ul>
+					</li> <!-- .product -->
+
+					
+				</ul> <!-- .cd-products-columns -->
+			</div> <!-- .cd-products-wrapper -->
+			
+			<ul class="cd-table-navigation">
+				<li><a href="#0" class="prev inactive">Prev</a></li>
+				<li><a href="#0" class="next">Next</a></li>
+			</ul>
+		</div> <!-- .cd-products-table -->
+	</section> <!-- .cd-products-comparison-table -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script>
+
+function prodcutSwitch(evt){
+		 if(evt.id=="tv"){
+			 $("#inttvsection").hide();
+			 $("#intsection").hide();
+			 $("#tvsection").show();
+			 $('#int').attr('checked', false);
+			 $('#tvint').attr('checked', false);
+		 }if(evt.id=="int"){
+			 $("#tvsection").hide();
+			 $("#inttvsection").hide();
+			 $("#intsection").show();
+			 $('#tv').attr('checked', false);
+			 $('#tvint').attr('checked', false);
+		}if(evt.id=="tvint"){
+		    $("#intsection").hide();
+			 $("#tvsection").hide();
+			 $("#inttvsection").show();
+			 $('#int').attr('checked', false);
+			 $('#tv').attr('checked', false);
+		 }
+	 }
+</script>	 
+</body>
+</html>
